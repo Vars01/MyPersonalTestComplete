@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B13E2808-3DB6-4230-B542-280594F43AF8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44250.3665625" objectName="Aliases.browser.pageLogin.formF.textboxUsername" objectLeft="525" objectTop="430" objectRight="845" objectBottom="474" clickPointX="601" clickPointY="469" imageFileName="tcvi67794734214644.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44250.3665740741" objectName="Aliases.browser.pageLogin.formF.textboxUsername" objectLeft="525" objectTop="430" objectRight="845" objectBottom="474" clickPointX="-1" clickPointY="-1" imageFileName="tcvi67795437214645.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44250.3666087963" objectName="Aliases.browser.pageLogin.formF.textboxUsername" objectLeft="525" objectTop="430" objectRight="845" objectBottom="474" clickPointX="-1" clickPointY="-1" imageFileName="tcvi677954372146451.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44250.3666203704" objectName="Aliases.browser.pageLogin.formF.passwordboxPassword" objectLeft="525" objectTop="496" objectRight="845" objectBottom="540" clickPointX="-1" clickPointY="-1" imageFileName="tcvi67798484214646.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44250.3751857292" objectName="Aliases.browser.pageLogin.formF.submitbuttonLogin" objectLeft="525" objectTop="550" objectRight="845" objectBottom="586" clickPointX="685" clickPointY="568" imageFileName="tcvi67803734214647.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

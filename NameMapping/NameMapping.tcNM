@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{E3E92C04-30E5-4018-B53E-4338A04EBA3D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Teams" Key="{BCEA095F-00A4-40E1-9F1C-7C4DAEFDDE7E}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Teams" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{2B33889A-7F49-4E1C-9CCC-714F029AD533}">
+								<TypeInfo Item0="{92D2ED32-7329-420A-B263-CF69F2A41ECC}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Ritu Thakur | Microsoft Teams" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{CB581164-CB72-4A69-ADE0-79EA869C0288}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{50FB20A3-9F27-469A-9435-BB6A22F833BB}">
+								<Image FileName="1936643344" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{92D2ED32-7329-420A-B263-CF69F2A41ECC}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{B4E168EB-6C50-4372-A759-220D024CDE03}">
+								<Image FileName="-80359426" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat7:18821/login.jsp" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF" Key="{79A74571-CFB7-435F-A061-89A659420FF3}">
+										<Image FileName="-16487754" Left="485" Top="370" Right="885" Bottom="626" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{B9BC00D7-1925-46A4-B2AC-658DC29DC2E9}">
+										<Image FileName="-16487754" Left="525" Top="430" Right="845" Bottom="474" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{29E8B756-A676-449F-8567-CD1CD44E48F5}">
+										<Image FileName="-427928449" Left="525" Top="496" Right="845" Bottom="540" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;password&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{4DB781B1-C0FB-4677-BA59-4DCFF934E28E}">
+										<Image FileName="-311641491" Left="525" Top="550" Right="845" Bottom="586" />
+										<TypeInfo Item0="{A123CE8A-DDA6-47AB-B092-A2373F45548C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageIndex" Key="{23F11D45-4D79-411B-8C59-EF902E72B9C0}">
+								<Image FileName="-80359426" Left="0" Top="103" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{8E3C318B-B5BD-4C9D-85A0-C80E5F0598B0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat7:18821/enterprise/index.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{150E0B33-54E2-409D-A03A-7F800AB57D8F}">
+										<Image FileName="-423639243" Left="1270" Top="106" Right="1315" Bottom="161" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Vars&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".wj-form-control:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{9E9766F7-EB86-463F-8199-1D6309A13F5B}">
+										<Image FileName="-35578809" Left="291" Top="250" Right="1091" Bottom="622" />
+										<TypeInfo Item0="{5CA95CD3-9245-4C11-8175-3C4D09F9109C}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".u-position--relative &gt; .ng-dirty" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form2" Key="{3E75A4B2-4771-4F80-8474-A3590FE1CB63}">
+										<Image FileName="-35578809" Left="291" Top="303" Right="1091" Bottom="525" />
+										<TypeInfo Item0="{5CA95CD3-9245-4C11-8175-3C4D09F9109C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="fact-type-form &gt; .ng-dirty" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[2]/div/fact-type-form/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonStartANewDecision" Key="{47B48E81-C0FA-4F14-BAA1-4CE6F0110D49}">
+										<Image FileName="103913676" Left="1119" Top="180" Right="1303" Bottom="222" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Start a New Decision&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ng-tns-c22-2 &gt; [type=&apos;button&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-enterprise-landing-page/div/div/div[2]/dcn-create-asset-button/dcn-split-button/p-splitbutton/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-splitbutton/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeStartANewDecision" Key="{D78B0DA2-4023-4C91-AFC1-885BE6881BFE}">
+										<Image FileName="103913676" Left="1126" Top="189" Right="1297" Bottom="214" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Start a New Decision&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;button&apos;]:nth-child(1) &gt; .ui-button-text:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-enterprise-landing-page/div/div/div[2]/dcn-create-asset-button/dcn-split-button/p-splitbutton/div/button/span[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button/span[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form3" Key="{509B7384-D150-4131-9CD0-2CEEFB5E3AF7}">
+										<Image FileName="1053834452" Left="275" Top="165" Right="1075" Bottom="690" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; .ng-invalid" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(.,&apos;Create New Decision&#32;&#32;In order to create a new Decision, a task must be selected or created.&#32;&#32;Community ui-btn Task Name ui-btn Task Description&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Decision name&#32;&#32;View name ui-btn Folder ui-btn Cancel OK&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form4" Key="{EDFECC30-398D-4A41-98B6-EC48450A5A9F}">
+										<Image FileName="1053834452" Left="275" Top="252" Right="1075" Bottom="420" />
+										<Selectors>
+											<Selector>
+												<Value Value="dcn-task-form &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="(//form[contains(.,&apos;Community ui-btn Task Name ui-btn Task Description&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-task-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonUiBtn" Key="{E226FA3E-9174-4234-9E6B-65039738D046}">
+										<Image FileName="1053834452" Left="1047" Top="252" Right="1075" Bottom="285" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-7 &gt; [type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[contains(.,&apos;ui-btn&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-autocomplete/span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A4D7B1A6-587F-4BC0-89B4-AF97FA61991A}">
+										<Image FileName="1053834452" Left="1054" Top="262" Right="1068" Bottom="276" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-7 [aria-hidden=&apos;true&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/span/button/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-autocomplete/span/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{610EAAE6-EEC2-4A5D-B439-6CC9E748377A}">
+										<Image FileName="-230294411" Left="523" Top="285" Right="1075" Bottom="485" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-autocomplete-panel" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-autocomplete/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVars" Key="{16681BBC-A6CA-4454-B85C-1CAA53372C50}">
+										<Image FileName="568094761" Left="524" Top="372" Right="1057" Bottom="400" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Vars&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/div/ul/li[42]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[42]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVars2" Key="{4FEA7458-E2B8-46DA-9D24-C827D82AD299}">
+										<Image FileName="568094761" Left="534" Top="378" Right="563" Bottom="394" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Vars&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#p-highlighted-option span:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]/dcn-autocomplete-default-template/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[42]/dcn-autocomplete-default-template/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{57EB0A27-BFFD-401B-96F2-D617716FD84A}">
+										<Image FileName="1225423116" Left="523" Top="302" Right="1075" Bottom="335" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-8 &gt; [aria-autocomplete=&apos;list&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewTaskTaska1" Key="{F537DF89-FBEB-4F03-B316-96A17382C39C}">
+										<Image FileName="338204707" Left="524" Top="336" Right="1074" Bottom="368" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Create New Task &quot;TaskA1&quot;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/div/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewTaskTaska12" Key="{B7F9EEC3-79A0-477A-A1B0-E8D9A0272787}">
+										<Image FileName="338204707" Left="562" Top="343" Right="732" Bottom="359" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Create New Task &quot;TaskA1&quot;&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".u-flex-inline-container &gt; span:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]/dcn-autocomplete-default-template/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-autocomplete-default-template/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaFreetext" Key="{5BC1D7F6-F001-4BB7-A378-A32A31925873}">
+										<Image FileName="1434191765" Left="523" Top="352" Right="1075" Bottom="420" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;freeText&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;freeText&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;freeText&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/dcn-task-form/form/div/fx-field[2]/div/div/span/textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox2" Key="{568DD934-464D-4BD7-BC08-1086B520368A}">
+										<Image FileName="1768108678" Left="523" Top="458" Right="1075" Bottom="491" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-6 &gt; [aria-autocomplete=&apos;list&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewFactTypeFt56" Key="{B2F4D331-01F9-4832-8F10-D832FDCB23EA}">
+										<Image FileName="804366737" Left="524" Top="492" Right="1074" Bottom="524" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Create New Fact Type &quot;FT56&quot;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewFactTypeFt562" Key="{B13ACA19-A5FC-4478-8364-5CB8C81740DF}">
+										<Image FileName="804366737" Left="524" Top="492" Right="1074" Bottom="524" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Create New Fact Type &quot;FT56&quot;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field/div/div/span/dcn-autocomplete/p-autocomplete/div/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewFactTypeFt563" Key="{053AB975-F71D-4937-9E5F-A09665DB7957}">
+										<Image FileName="804366737" Left="562" Top="499" Right="749" Bottom="515" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Create New Fact Type &quot;FT56&quot;&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".u-flex-inline-container &gt; span:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]/dcn-autocomplete-default-template/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-autocomplete-default-template/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonUiBtn2" Key="{FBDF20BC-A6B5-493E-A2D0-E6E2F234806C}">
+										<Image FileName="-910184204" Left="1047" Top="508" Right="1075" Bottom="541" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-4 &gt; [type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[contains(.,&apos;ui-btn&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[8]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[2]/div/div/span/dcn-autocomplete/p-autocomplete/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[2]/div/div/span/dcn-autocomplete/p-autocomplete/span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{B0CA4CB5-B6F6-4D86-8750-6DD4093FFAC7}">
+										<Image FileName="-910184204" Left="1054" Top="518" Right="1068" Bottom="532" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-4 [aria-hidden=&apos;true&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[2]/div/div/span/dcn-autocomplete/p-autocomplete/span/button/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[2]/div/div/span/dcn-autocomplete/p-autocomplete/span/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode111BaseBlueD1NatNgTestVi" Key="{6445A581-03DF-4BC2-8FB8-4A7787BC6342}">
+										<Image FileName="2050026394" Left="524" Top="309" Right="1057" Bottom="617" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;111BaseBlueD1NatNG Test ViewRTt1TerstTestTuition&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[2]/div/div/span/dcn-autocomplete/p-autocomplete/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBase" Key="{D4AE31B2-CED6-45ED-B20F-C0585C53128A}">
+										<Image FileName="2050026394" Left="524" Top="337" Right="1057" Bottom="365" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Base&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[2]/div/div/span/dcn-autocomplete/p-autocomplete/div/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonUiBtn3" Key="{6A44E733-72F1-40FD-976E-4F76D1CB1CEF}">
+										<Image FileName="1336638167" Left="1047" Top="558" Right="1075" Bottom="591" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-5 &gt; [type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[contains(.,&apos;ui-btn&apos;)])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[3]/div/div/span/dcn-autocomplete/p-autocomplete/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[3]/div/div/span/dcn-autocomplete/p-autocomplete/span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{6DDC7019-57FA-4315-B370-52FAA454221C}">
+										<Image FileName="1336638167" Left="1054" Top="568" Right="1068" Bottom="582" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-tns-c21-5 [aria-hidden=&apos;true&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[3]/div/div/span/dcn-autocomplete/p-autocomplete/span/button/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[3]/div/div/span/dcn-autocomplete/p-autocomplete/span/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVarsVars11" Key="{18BFE34D-F23D-4E70-B0CE-F530C51EC4FF}">
+										<Image FileName="1175918812" Left="524" Top="592" Right="1074" Bottom="648" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;VarsVars1_1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[3]/div/div/span/dcn-autocomplete/p-autocomplete/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVars3" Key="{335DAC20-510B-405D-9BEF-0D8829DA8905}">
+										<Image FileName="1175918812" Left="524" Top="592" Right="1074" Bottom="620" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Vars&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[2]/div/fx-field[3]/div/div/span/dcn-autocomplete/p-autocomplete/div/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{B79A86D2-6AE4-4358-BB91-AD6F21D7E361}">
+										<Image FileName="-1035448893" Left="975" Top="632" Right="1075" Bottom="666" />
+										<TypeInfo Item0="{A123CE8A-DDA6-47AB-B092-A2373F45548C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;OK&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".primary" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[3]/div/button[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreatingANewDecision" Key="{78BEB1C9-FDD9-4CDF-8C3E-9169E4214B19}">
+										<Image FileName="-818126515" Left="334" Top="640" Right="500" Bottom="659" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Creating a new decision...&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spinner__text--right" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-0&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[3]/div/dcn-spinner/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-spinner/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas" Key="{C2B5BE6B-E77B-47D4-935C-71B2E8CD5177}">
+										<Image FileName="847973730" Left="51" Top="268" Right="1017" Bottom="722" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;godiagram&apos;]/canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//canvas[contains(.,&apos;This text is displayed if your browser does not support the Canvas HTML element.&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox3" Key="{6C604049-80A7-4A91-8D50-5113703979FD}">
+										<Image FileName="-75039497" Left="437" Top="348" Right="612" Bottom="370" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[aria-autocomplete=&apos;list&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;godiagram&apos;]/dcn-decision-diagram-fact-type-auto-complete/div/dcn-autocomplete/p-autocomplete/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewFactTypeFt65" Key="{CAB4AD9E-AC80-43A5-90E0-478346881FD3}">
+										<Image FileName="1278731005" Left="438" Top="371" Right="621" Bottom="415" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Create New Fact Type &quot;FT65&quot;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;godiagram&apos;]/dcn-decision-diagram-fact-type-auto-complete/div/dcn-autocomplete/p-autocomplete/span/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewFactTypeFt652" Key="{6D1826D4-BC5E-45F2-86D5-C80A20C106FD}">
+										<Image FileName="1278731005" Left="438" Top="371" Right="621" Bottom="415" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p-highlighted-option" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Create New Fact Type &quot;FT65&quot;&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;godiagram&apos;]/dcn-decision-diagram-fact-type-auto-complete/div/dcn-autocomplete/p-autocomplete/span/div/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreateNewFactTypeFt653" Key="{9864EBFD-5A8C-49A9-B952-4BA31C1CEFB9}">
+										<Image FileName="1278731005" Left="476" Top="377" Right="601" Bottom="409" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Create New Fact Type &quot;FT65&quot;&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".u-flex-inline-container &gt; span:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;p-highlighted-option&apos;]/dcn-autocomplete-default-template/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-autocomplete-default-template/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{AEAED855-E8A5-43FC-8BB0-88B920DD0D17}">
+										<Image FileName="6740" Left="571" Top="365" Right="820" Bottom="496" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ui-menu-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-decision-diagram/dcn-contextmenu/p-contextmenu/div/p-contextmenusub/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(.,&apos;Open Fact Type SummaryRevert Fact TypeUpdate Fact Type to Latest VersionRemove Fact Type&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOpenFactTypeSummary" Key="{CF02E861-AC0F-48FA-93C6-6075FB690521}">
+										<Image FileName="6740" Left="571" Top="365" Right="820" Bottom="398" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Open Fact Type Summary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[title=&apos;Open Fact Type summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-decision-diagram/dcn-contextmenu/p-contextmenu/div/p-contextmenusub/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;#&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOpenFactTypeSummary" Key="{A23434A9-43A0-4784-9AFC-87F708DEC461}">
+										<Image FileName="6740" Left="581" Top="373" Right="749" Bottom="392" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Open Fact Type Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[title=&apos;Open Fact Type summary&apos;] &gt; .ui-menuitem-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-decision-diagram/dcn-contextmenu/p-contextmenu/div/p-contextmenusub/ul/li/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form5" Key="{D835DCAB-67E0-4E73-9A43-ED6C5004EA40}">
+										<Image FileName="1474801691" Left="283" Top="135" Right="1083" Bottom="720" />
+										<Selectors>
+											<Selector>
+												<Value Value=".u-position--relative &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form6" Key="{B5C6C8E6-D6FB-4910-A070-CBACE4CC18A7}">
+										<Image FileName="1474801691" Left="283" Top="188" Right="1066" Bottom="631" />
+										<Selectors>
+											<Selector>
+												<Value Value="fact-type-form &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[2]/div/fact-type-form/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form7" Key="{9917990D-07BA-41BB-85F4-2071D5B6FD48}">
+										<Image FileName="1474801691" Left="317" Top="373" Right="1015" Bottom="754" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-0-content&apos;]/div/fact-type-form-details/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form-details/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="(//form[contains(.,&apos;Name&#32;&#32;Description&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;List Indicator Single ValueMultiple Values Data Type&#32;&#32;Display Format&#32;&#32;Allowed Values&#32;&#32;Max Length&apos;)])[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{E6713C25-0FE7-4B83-94AE-77056C3A8A44}">
+										<Image FileName="1474801691" Left="466" Top="373" Right="1015" Bottom="406" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-0-content&apos;]/div/fact-type-form-details/div/form/fx-field/div/div/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAFactTypeWithThisNameAlr" Key="{92A8BF08-9B42-4882-AA5A-64B21887078F}">
+										<Image FileName="633381341" Left="353" Top="242" Right="1014" Bottom="280" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".message-panel__msg__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[2]/div/fact-type-form/form/div/dcn-message-panel/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-message-panel/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(.,&apos;A Fact Type with this name already exists in ‘TaskA’ owned by ‘Vars’. Rename or replace this Fact Type to proceed.&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAssociatedAssets" Key="{EADF6B44-F67F-4B35-87F9-95B48F4DF5C6}">
+										<Image FileName="-347771451" Left="307" Top="607" Right="1042" Bottom="626" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordiontab-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Associated Assets&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ui-accordiontab-1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[2]/div/fact-type-form/form/div/dcn-accordion/p-accordion/div/p-accordiontab[2]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-accordiontab[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{7AA68172-7FAD-4B49-AC15-364F2E29FFCF}">
+										<Image FileName="-1907795411" Left="317" Top="488" Right="1049" Bottom="506" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;There are no associated assets in the task&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-fact-type-form__asset-associations" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-1-content&apos;]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-accordiontab[2]/div[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMoreDetails" Key="{B64890A2-D541-4C71-BDD9-E7F9C7C5FDF6}">
+										<Image FileName="-1907795411" Left="949" Top="427" Right="1029" Bottom="446" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;More Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".link-label__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-1&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[2]/div/fact-type-form/form/div/dcn-link-label/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-link-label/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{47C82B20-1F2F-457F-B8AC-C049C8C1E0D8}">
+										<Image FileName="1885453958" Left="102" Top="314" Right="181" Bottom="348" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;-&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".empty-cell" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-table/div/div/div/wj-flex-grid/div/div/div/div[2]/div/div/div/dcn-rule-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-rule-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox4" Key="{AE55135E-87E5-4ECA-BE27-E69611C0A6F5}">
+										<Image FileName="1853735241" Left="367" Top="326" Right="592" Bottom="362" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; [type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/wj-popup/div/div/div/dcn-cell-operand/div/div/span/dcn-domain-input/div/div/div/div/div/dcn-string-input/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-string-input/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{5602B11B-85D7-4BB8-B611-D54CE1C9BE08}">
+										<Image FileName="-2109138944" Left="51" Top="268" Right="1315" Bottom="480" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".sidebar-container__background" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;FT651FT56Is ⋮ 1FT651FT560&apos;)])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-component/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{336B43F5-B1AC-4DC5-B4A5-17A557AB3FCF}">
+										<Image FileName="1609323864" Left="197" Top="314" Right="259" Bottom="348" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".decision-table__conclusion-cell--stretch &gt; .u-flex-container &gt; .u-flex-inline-container" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;Is ⋮&apos;)])[22]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-table/div/div/div/wj-flex-grid/div/div/div/div[2]/div[2]/div/div/dcn-rule-cell/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/dcn-rule-cell/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox5" Key="{3D1EC927-A92D-49BB-8663-00AB0909F534}">
+										<Image FileName="-242141883" Left="231" Top="326" Right="456" Bottom="362" />
+										<TypeInfo Item0="{D7CBC0A0-68A5-4F6E-908A-A8246A121543}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ng-star-inserted &gt; [type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/wj-popup/div/div/div/dcn-cell-operand/div/div/span/dcn-domain-input/div/div/div/div/div/dcn-string-input/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-string-input/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFt56" Key="{96A7CE71-78C0-41F2-9C5D-4DF31D0F37F5}">
+										<Image FileName="-1193346626" Left="197" Top="280" Right="230" Bottom="299" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tableColumnHeader1" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[text()=&apos;FT56&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@id=&apos;tableColumnHeader1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/div/dcn-table/div/div/div/wj-flex-grid/div/div[5]/div/div/div[2]/div/div/dcn-fact-type-status-view/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/dcn-fact-type-status-view/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{2CF9DA65-429C-4BB6-A463-B306F1E51222}">
+										<Image FileName="-914747719" Left="140" Top="291" Right="178" Bottom="329" />
+										<TypeInfo Item0="{A123CE8A-DDA6-47AB-B092-A2373F45548C}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".floating-action-button__run-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/dcn-decision-sidebar/div/dcn-floating-action-sidebar/span/div/dcn-floating-action-button/div/div/div/div[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeThisRuleFamilyIsValid" Key="{7AE1B6C0-E4C4-47D2-BF46-E97D59E7975C}">
+										<Image FileName="-314032961" Left="56" Top="390" Right="436" Bottom="416" />
+										<TypeInfo Item0="{B28DB419-2F39-4C90-B616-D7F196196757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;This Rule Family is valid.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".sidebar-container__validation-message" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/dcn-decision-sidebar/div/dcn-floating-action-sidebar/span/div/dcn-floating-action-button/div/div/div[2]/div/div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCancel" Key="{2BC734CE-53E0-447B-ADF9-C51A1932C96E}">
+										<Image FileName="-214162657" Left="863" Top="632" Right="963" Bottom="666" />
+										<TypeInfo Item0="{A123CE8A-DDA6-47AB-B092-A2373F45548C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Cancel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".u-justify--end &gt; [type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[10]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-2&apos;]/dcn-create-decision-dialog/form/dcn-dialog/div/div[3]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Teams" Owner="{BCEA095F-00A4-40E1-9F1C-7C4DAEFDDE7E}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{2B33889A-7F49-4E1C-9CCC-714F029AD533}" />
+		</Child>
+		<Child Name="browser" Owner="{CB581164-CB72-4A69-ADE0-79EA869C0288}">
+			<Child Name="BrowserWindow" Owner="{50FB20A3-9F27-469A-9435-BB6A22F833BB}" />
+			<Child Name="pageLogin" Owner="{B4E168EB-6C50-4372-A759-220D024CDE03}">
+				<Child Name="formF" Owner="{79A74571-CFB7-435F-A061-89A659420FF3}">
+					<Child Name="textboxUsername" Owner="{B9BC00D7-1925-46A4-B2AC-658DC29DC2E9}" />
+					<Child Name="passwordboxPassword" Owner="{29E8B756-A676-449F-8567-CD1CD44E48F5}" />
+					<Child Name="submitbuttonLogin" Owner="{4DB781B1-C0FB-4677-BA59-4DCFF934E28E}" />
+				</Child>
+			</Child>
+			<Child Name="pageIndex" Owner="{23F11D45-4D79-411B-8C59-EF902E72B9C0}">
+				<Child Name="panel" Owner="{150E0B33-54E2-409D-A03A-7F800AB57D8F}" />
+				<Child Name="form" Owner="{9E9766F7-EB86-463F-8199-1D6309A13F5B}">
+					<Child Name="form2" Owner="{3E75A4B2-4771-4F80-8474-A3590FE1CB63}" />
+				</Child>
+				<Child Name="buttonStartANewDecision" Owner="{47B48E81-C0FA-4F14-BAA1-4CE6F0110D49}">
+					<Child Name="textnodeStartANewDecision" Owner="{D78B0DA2-4023-4C91-AFC1-885BE6881BFE}" />
+				</Child>
+				<Child Name="form3" Owner="{509B7384-D150-4131-9CD0-2CEEFB5E3AF7}">
+					<Child Name="form4" Owner="{EDFECC30-398D-4A41-98B6-EC48450A5A9F}">
+						<Child Name="buttonUiBtn" Owner="{E226FA3E-9174-4234-9E6B-65039738D046}">
+							<Child Name="textnode" Owner="{A4D7B1A6-587F-4BC0-89B4-AF97FA61991A}" />
+						</Child>
+						<Child Name="panel2" Owner="{610EAAE6-EEC2-4A5D-B439-6CC9E748377A}" />
+						<Child Name="textnodeVars" Owner="{16681BBC-A6CA-4454-B85C-1CAA53372C50}">
+							<Child Name="textnodeVars2" Owner="{4FEA7458-E2B8-46DA-9D24-C827D82AD299}" />
+						</Child>
+						<Child Name="textbox" Owner="{57EB0A27-BFFD-401B-96F2-D617716FD84A}" />
+						<Child Name="textnodeCreateNewTaskTaska1" Owner="{F537DF89-FBEB-4F03-B316-96A17382C39C}">
+							<Child Name="textnodeCreateNewTaskTaska12" Owner="{B7F9EEC3-79A0-477A-A1B0-E8D9A0272787}" />
+						</Child>
+						<Child Name="textareaFreetext" Owner="{5BC1D7F6-F001-4BB7-A378-A32A31925873}" />
+					</Child>
+					<Child Name="textbox2" Owner="{568DD934-464D-4BD7-BC08-1086B520368A}" />
+					<Child Name="textnodeCreateNewFactTypeFt56" Owner="{B2F4D331-01F9-4832-8F10-D832FDCB23EA}">
+						<Child Name="textnodeCreateNewFactTypeFt562" Owner="{B13ACA19-A5FC-4478-8364-5CB8C81740DF}">
+							<Child Name="textnodeCreateNewFactTypeFt563" Owner="{053AB975-F71D-4937-9E5F-A09665DB7957}" />
+						</Child>
+					</Child>
+					<Child Name="buttonUiBtn2" Owner="{FBDF20BC-A6B5-493E-A2D0-E6E2F234806C}">
+						<Child Name="textnode2" Owner="{B0CA4CB5-B6F6-4D86-8750-6DD4093FFAC7}" />
+					</Child>
+					<Child Name="textnode111BaseBlueD1NatNgTestVi" Owner="{6445A581-03DF-4BC2-8FB8-4A7787BC6342}">
+						<Child Name="textnodeBase" Owner="{D4AE31B2-CED6-45ED-B20F-C0585C53128A}" />
+					</Child>
+					<Child Name="buttonUiBtn3" Owner="{6A44E733-72F1-40FD-976E-4F76D1CB1CEF}">
+						<Child Name="textnode3" Owner="{6DDC7019-57FA-4315-B370-52FAA454221C}" />
+					</Child>
+					<Child Name="textnodeVarsVars11" Owner="{18BFE34D-F23D-4E70-B0CE-F530C51EC4FF}">
+						<Child Name="textnodeVars3" Owner="{335DAC20-510B-405D-9BEF-0D8829DA8905}" />
+					</Child>
+					<Child Name="buttonOk" Owner="{B79A86D2-6AE4-4358-BB91-AD6F21D7E361}" />
+					<Child Name="textnodeCreatingANewDecision" Owner="{78BEB1C9-FDD9-4CDF-8C3E-9169E4214B19}" />
+					<Child Name="buttonCancel" Owner="{2BC734CE-53E0-447B-ADF9-C51A1932C96E}" />
+				</Child>
+				<Child Name="canvas" Owner="{C2B5BE6B-E77B-47D4-935C-71B2E8CD5177}" />
+				<Child Name="textbox3" Owner="{6C604049-80A7-4A91-8D50-5113703979FD}" />
+				<Child Name="textnodeCreateNewFactTypeFt65" Owner="{CAB4AD9E-AC80-43A5-90E0-478346881FD3}">
+					<Child Name="textnodeCreateNewFactTypeFt652" Owner="{6D1826D4-BC5E-45F2-86D5-C80A20C106FD}">
+						<Child Name="textnodeCreateNewFactTypeFt653" Owner="{9864EBFD-5A8C-49A9-B952-4BA31C1CEFB9}" />
+					</Child>
+				</Child>
+				<Child Name="textnode4" Owner="{AEAED855-E8A5-43FC-8BB0-88B920DD0D17}">
+					<Child Name="linkOpenFactTypeSummary" Owner="{CF02E861-AC0F-48FA-93C6-6075FB690521}">
+						<Child Name="textnodeOpenFactTypeSummary" Owner="{A23434A9-43A0-4784-9AFC-87F708DEC461}" />
+					</Child>
+				</Child>
+				<Child Name="form5" Owner="{D835DCAB-67E0-4E73-9A43-ED6C5004EA40}">
+					<Child Name="form6" Owner="{B5C6C8E6-D6FB-4910-A070-CBACE4CC18A7}">
+						<Child Name="form7" Owner="{9917990D-07BA-41BB-85F4-2071D5B6FD48}">
+							<Child Name="textboxName" Owner="{E6713C25-0FE7-4B83-94AE-77056C3A8A44}" />
+						</Child>
+						<Child Name="textnodeAFactTypeWithThisNameAlr" Owner="{92A8BF08-9B42-4882-AA5A-64B21887078F}" />
+						<Child Name="linkAssociatedAssets" Owner="{EADF6B44-F67F-4B35-87F9-95B48F4DF5C6}" />
+						<Child Name="panel3" Owner="{7AA68172-7FAD-4B49-AC15-364F2E29FFCF}" />
+						<Child Name="linkMoreDetails" Owner="{B64890A2-D541-4C71-BDD9-E7F9C7C5FDF6}" />
+					</Child>
+				</Child>
+				<Child Name="panel4" Owner="{47C82B20-1F2F-457F-B8AC-C049C8C1E0D8}" />
+				<Child Name="textbox4" Owner="{AE55135E-87E5-4ECA-BE27-E69611C0A6F5}" />
+				<Child Name="panel5" Owner="{5602B11B-85D7-4BB8-B611-D54CE1C9BE08}" />
+				<Child Name="panel6" Owner="{336B43F5-B1AC-4DC5-B4A5-17A557AB3FCF}" />
+				<Child Name="textbox5" Owner="{3D1EC927-A92D-49BB-8663-00AB0909F534}" />
+				<Child Name="textnodeFt56" Owner="{96A7CE71-78C0-41F2-9C5D-4DF31D0F37F5}" />
+				<Child Name="button" Owner="{2CF9DA65-429C-4BB6-A463-B306F1E51222}" />
+				<Child Name="textnodeThisRuleFamilyIsValid" Owner="{7AE1B6C0-E4C4-47D2-BF46-E97D59E7975C}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
