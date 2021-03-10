@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0024FC43-A1E6-4A9C-BEAA-CBAAD458D038}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{7FD6B47F-F1E2-49B7-8D1D-26B2B572DDD5}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{AE29B50C-E860-4D50-8659-02868473F4E4}">
+								<Image FileName="1265517152" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="3" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageDecisionStatisticsDecisionRi" Key="{82A13258-F545-4206-B15B-AE33EB318505}">
+								<Image FileName="1265517152" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://jiraapp.sapiens.com/secure/Dashboard.jspa" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{24A5CE5C-BF09-4F9D-AB66-852980BEC9C7}">
+										<Image FileName="1265517152" Left="0" Top="103" Right="1349" Bottom="103" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(.,&apos;require([&quot;jquery&quot;, &quot;jira/license-banner&quot;], function ($, licenseBanner) {&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{7A7DF620-B7ED-4C62-8ABB-E9C512BB2721}">
+										<Image FileName="1265517152" Left="0" Top="103" Right="1349" Bottom="143" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(.,&apos;Linked ApplicationsDecision/RI JIRAhttps://jira.sapiens.comDecision/RI JIRADashboardsProjectsIssuesTempoMy WorkReportsTrackerTeamsAccountsSettingsTempo Help CenterAbout TempoBoards&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{378FB33B-1989-49AF-AD5F-B5D95D860836}">
+										<Image FileName="1265517152" Left="1295" Top="103" Right="1339" Bottom="143" />
+										<Selectors>
+											<Selector>
+												<Value Value="#user-options" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Profile&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;user-options&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/nav/div/div[3]/ul/li[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/ul/li[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHeaderDetailsUserFullname" Key="{BDB57D20-C47A-409E-B746-D149A8840087}">
+										<Image FileName="1265517152" Left="1295" Top="103" Right="1339" Bottom="143" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header-details-user-fullname" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;/secure/ViewProfile.jspa&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;header-details-user-fullname&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;user-options&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/secure/ViewProfile.jspa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/ul/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{C3F3BE4C-4470-4015-B8A8-17F563DED3AD}">
+										<Image FileName="240639971" Left="0" Top="160" Right="1349" Bottom="3240" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Decision Statistics&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;content&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreatedVsResolvedChartDe" Key="{DDF981F3-5CB1-4D98-A3E1-83C0CDC31E50}">
+										<Image FileName="240639971" Left="695" Top="231" Right="1313" Bottom="259" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[text()=&apos;Created vs. Resolved Chart: Decision bugs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dashboard-content&apos;]/div[9]/div/div/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/div/div/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreatedVsResolvedChartDe2" Key="{A7DF617A-D817-4907-A68B-B0A84695769F}">
+										<Image FileName="377512010" Left="47" Top="231" Right="665" Bottom="259" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;dashboard-content&apos;]/div[4]/div/div/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(.,&apos;Created vs. Resolved Chart: Decision development issues (no bug/Epic/sub-task)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGadgetCreatedvsresolvedChar" Key="{FE8B0689-9637-44C7-BD86-3F2FB5F5E0D7}">
+										<Image FileName="1270885333" Left="67" Top="279" Right="645" Bottom="684" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;15 Dec 202006 Mar 2021051015202530DECISION:NG4&apos;)])[11]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dashboard-content&apos;]/div[4]/div/div[2]/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRequireJqueryJiraLicense" Key="{67A433AA-E36F-41FA-9868-F25E8664BF3E}">
+										<Image FileName="-804300912" Left="0" Top="103" Right="1349" Bottom="3240" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#jira" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;jira&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(.,&apos;require([&quot;jquery&quot;, &quot;jira/license-banner&quot;], function ($, licenseBanner) {&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGadgetCreatedvsresolvedChar2" Key="{E7B72B43-01F1-45CF-B1AC-F8D3FDE5DFD6}">
+										<Image FileName="-1563855217" Left="715" Top="279" Right="1293" Bottom="684" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;15 Dec 202006 Mar 2021050100150200250DECISION:NG4&apos;)])[11]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dashboard-content&apos;]/div[9]/div/div[2]/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/div/div[2]/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{B8318517-F908-4E1A-AD82-D2F870E872E8}">
+										<Image FileName="1742939175" Left="0" Top="230" Right="1349" Bottom="3239" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".layout" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dashboard-content&apos;]/div[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{EFEA1788-8857-4793-8003-3F17B075FFD1}">
+								<TypeInfo Item0="{2C87AD26-DF6E-4AC3-86D4-EEDF67854CC6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat8:8854/login.jsp" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF" Key="{7FC7427F-69D0-4A3E-B4EF-F7CF82BAFD40}">
+										<Image FileName="-945545703" Left="485" Top="370" Right="885" Bottom="626" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{CAC9E76D-106E-4F17-BADB-46788F1FDF56}">
+										<Image FileName="-945545703" Left="525" Top="430" Right="845" Bottom="474" />
+										<TypeInfo Item0="{09B8BD77-D8B0-4522-B41B-57D7B6D49794}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{596CF5BE-982B-4BC1-84D6-9910C8E03C23}">
+										<Image FileName="1233020179" Left="525" Top="496" Right="845" Bottom="540" />
+										<TypeInfo Item0="{09B8BD77-D8B0-4522-B41B-57D7B6D49794}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;password&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{FD7B258C-9AD0-4801-BFF4-F78650791164}">
+										<Image FileName="1114409729" Left="525" Top="550" Right="845" Bottom="586" />
+										<TypeInfo Item0="{F63EBC2A-6089-4E49-8D3F-6B604FDA41EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSapiensDecision" Key="{D5A13453-3893-46FE-9D63-A8FFE5B2E849}">
+								<Image FileName="630163769" Left="8" Top="111" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{5D170A3A-7894-4C36-9A05-1DDDED577DBE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat7:18821/enterprise/index.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{4A08FE77-A68D-4ECD-90B2-58875DDE9E7C}">
+										<Image FileName="630163769" Left="1278" Top="114" Right="1323" Bottom="169" />
+										<TypeInfo Item0="{8ADAB2F9-02AB-4A31-95B6-9499732C32FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Vars&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".wj-form-control:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageIndex" Key="{70BFEA5F-8B52-4B2C-9A55-08CBDAF3FC4E}">
+								<TypeInfo Item0="{2C87AD26-DF6E-4AC3-86D4-EEDF67854CC6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat8:8854/enterprise/index.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{93E7F10F-3258-4051-AA29-C5958074FC91}">
+										<Image FileName="607594209" Left="1295" Top="114" Right="1340" Bottom="169" />
+										<TypeInfo Item0="{8ADAB2F9-02AB-4A31-95B6-9499732C32FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Vars&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".wj-form-control:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{B1F5E562-6D25-4A4E-A167-71C77B3F67B2}">
+										<Image FileName="1462600914" Left="1332" Top="106" Right="1366" Bottom="161" />
+										<TypeInfo Item0="{F63EBC2A-6089-4E49-8D3F-6B604FDA41EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="button[aria-label=&apos;Toggle Dropdown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Toggle Dropdown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//button[@type=&apos;button&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogout" Key="{7476FC24-770E-4D6B-9CF9-0CF651E8CC3C}">
+										<Image FileName="1245088873" Left="1211" Top="220" Right="1256" Bottom="239" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".spec-user-menu-logout" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_dropdown&apos;]/div[3]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{74E48DA6-7F7A-4C7F-932D-5C2B845A2F7E}">
+										<Image FileName="-356553832" Left="20" Top="163" Right="1346" Bottom="239" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".enterprise-landing-page__top-wrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;OpenStart a New Decisionui-btn&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-enterprise-landing-page/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-enterprise-landing-page/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTasks" Key="{C834BB88-4B6A-4B14-9C50-00E3EE7C5E4D}">
+										<Image FileName="-1536099197" Left="309" Top="126" Right="348" Bottom="146" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Tasks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".navigation-menu__item__tasks &gt; span:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/dcn-navigation-menu/div/span/div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTaska" Key="{AF06509A-0A6E-43F5-9B56-9C3589A48EAA}">
+										<Image FileName="-744408390" Left="63" Top="312" Right="101" Bottom="331" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;#/tasks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;TaskA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".link-label__text" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-tabpanel-21&apos;]/dcn-task-list-and-details-panel/div/dcn-task-list/dcn-datagrid/div[2]/p-table/div/div/table/tbody/tr/td/div/dcn-link-label/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;#/tasks&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFactTypes" Key="{2777DF80-5F81-43EF-84C9-8EF7E11AE286}">
+										<Image FileName="1931413741" Left="21" Top="428" Right="89" Bottom="447" />
+										<TypeInfo Item0="{B3D87421-EA1D-499A-8C4C-6AA27AB984E9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Fact Types&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".navigation-menu__item__factTypes &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-task/div/dcn-navigation-menu/div/span/div[5]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-task/div/dcn-navigation-menu/div/span/div[5]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{3557769F-3A48-4A20-A3B3-77DA14FBD7CC}">
+								<Image FileName="-945545703" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{7FD6B47F-F1E2-49B7-8D1D-26B2B572DDD5}">
+			<Child Name="BrowserWindow" Owner="{AE29B50C-E860-4D50-8659-02868473F4E4}" />
+			<Child Name="pageDecisionStatisticsDecisionRi" Owner="{82A13258-F545-4206-B15B-AE33EB318505}">
+				<Child Name="header" Owner="{24A5CE5C-BF09-4F9D-AB66-852980BEC9C7}">
+					<Child Name="nav" Owner="{7A7DF620-B7ED-4C62-8ABB-E9C512BB2721}">
+						<Child Name="textnode" Owner="{378FB33B-1989-49AF-AD5F-B5D95D860836}">
+							<Child Name="linkHeaderDetailsUserFullname" Owner="{BDB57D20-C47A-409E-B746-D149A8840087}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="sectionContent" Owner="{C3F3BE4C-4470-4015-B8A8-17F563DED3AD}">
+					<Child Name="textnodeCreatedVsResolvedChartDe" Owner="{DDF981F3-5CB1-4D98-A3E1-83C0CDC31E50}" />
+					<Child Name="textnodeCreatedVsResolvedChartDe2" Owner="{A7DF617A-D817-4907-A68B-B0A84695769F}" />
+					<Child Name="panelGadgetCreatedvsresolvedChar" Owner="{FE8B0689-9637-44C7-BD86-3F2FB5F5E0D7}" />
+					<Child Name="panelGadgetCreatedvsresolvedChar2" Owner="{E7B72B43-01F1-45CF-B1AC-F8D3FDE5DFD6}" />
+					<Child Name="panel" Owner="{B8318517-F908-4E1A-AD82-D2F870E872E8}" />
+				</Child>
+				<Child Name="textnodeRequireJqueryJiraLicense" Owner="{67A433AA-E36F-41FA-9868-F25E8664BF3E}" />
+			</Child>
+			<Child Name="pageLogin" Owner="{EFEA1788-8857-4793-8003-3F17B075FFD1}">
+				<Child Name="formF" Owner="{7FC7427F-69D0-4A3E-B4EF-F7CF82BAFD40}">
+					<Child Name="textboxUsername" Owner="{CAC9E76D-106E-4F17-BADB-46788F1FDF56}" />
+					<Child Name="passwordboxPassword" Owner="{596CF5BE-982B-4BC1-84D6-9910C8E03C23}" />
+					<Child Name="submitbuttonLogin" Owner="{FD7B258C-9AD0-4801-BFF4-F78650791164}" />
+				</Child>
+			</Child>
+			<Child Name="pageSapiensDecision" Owner="{D5A13453-3893-46FE-9D63-A8FFE5B2E849}">
+				<Child Name="panel" Owner="{4A08FE77-A68D-4ECD-90B2-58875DDE9E7C}" />
+			</Child>
+			<Child Name="pageIndex" Owner="{70BFEA5F-8B52-4B2C-9A55-08CBDAF3FC4E}">
+				<Child Name="panel" Owner="{93E7F10F-3258-4051-AA29-C5958074FC91}" />
+				<Child Name="button" Owner="{B1F5E562-6D25-4A4E-A167-71C77B3F67B2}" />
+				<Child Name="linkLogout" Owner="{7476FC24-770E-4D6B-9CF9-0CF651E8CC3C}" />
+				<Child Name="panel2" Owner="{74E48DA6-7F7A-4C7F-932D-5C2B845A2F7E}" />
+				<Child Name="textnodeTasks" Owner="{C834BB88-4B6A-4B14-9C50-00E3EE7C5E4D}" />
+				<Child Name="linkTaska" Owner="{AF06509A-0A6E-43F5-9B56-9C3589A48EAA}" />
+				<Child Name="textnodeFactTypes" Owner="{2777DF80-5F81-43EF-84C9-8EF7E11AE286}" />
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{3557769F-3A48-4A20-A3B3-77DA14FBD7CC}" />
+		</Child>
+	</LogicalNodes>
+</Root>

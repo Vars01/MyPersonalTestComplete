@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="General">
+			<child name="Login" key="{C355741B-9E07-4DC6-8A83-95CF305E7F81}" path="Login.tcKDTest" />
+			<child name="Logout" key="{616FD986-CF7E-4921-9E65-8EB88E9C1612}" path="Logout.tcKDTest" />
+		</folder>
+		<folder name="Tasks" />
+		<folder name="Modelling">
+			<folder name="Modelling DV" />
+			<folder name="Modelling FT">
+				<child name="Create_Fact_type" key="{577E057A-D9BF-4798-9CB4-73F40EC69733}" path="Create_Fact_type.tcKDTest" />
+				<child name="Open_Draft_Fact_Type_Used" key="{62152BAA-A567-480B-B870-4D4893938DA7}" path="Open_Draft_Fact_Type_Used.tcKDTest" />
+				<child name="Navigate_to_FT_tab_thr_Task" key="{9FF77D6A-4252-4677-A9E7-B78CB8FB2364}" path="Navigate_to_FT_tab_thr_Task.tcKDTest" />
+			</folder>
+		</folder>
+	</children>
+</Root>

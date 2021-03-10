@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{9FF77D6A-4252-4677-A9E7-B78CB8FB2364}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44264.5071759259" objectName="Aliases.browser.pageIndex.panel2" objectLeft="20" objectTop="163" objectRight="1346" objectBottom="239" clickPointX="587" clickPointY="228" imageFileName="tcvi75870251539720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44264.5071990741" objectName="Aliases.browser.pageIndex.textnodeTasks" objectLeft="309" objectTop="126" objectRight="348" objectBottom="146" clickPointX="327" clickPointY="133" imageFileName="tcvi75870417139721.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44264.5072453704" objectName="Aliases.browser.pageIndex.linkTaska" objectLeft="63" objectTop="312" objectRight="101" objectBottom="331" clickPointX="78" clickPointY="323" imageFileName="tcvi75870853139723.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44264.5072916667" objectName="Aliases.browser.pageIndex.textnodeFactTypes" objectLeft="21" objectTop="428" objectRight="89" objectBottom="447" clickPointX="56" clickPointY="438" imageFileName="tcvi75871214039725.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
